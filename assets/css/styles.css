@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;800&display=swap');
+
+h1 {
+    font-family: 'Luckiest Guy', 'Roboto', 'Open sans';
+    color: #FFF;
+    font-size: 2rem;
+    font-weight: 400;
+    margin: 0;
+}
+
+h2 {
+    color: #23272A;
+    font-family: 'Open Sans','Roboto';
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin: 0;
+}
+
+p {
+    font-family: 'Open Sans','Roboto';
+    color: #23272A;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+}
+
+header {
+    
+    background-image: url(../images/Header\ Background.png);
+    padding: 4.38rem 1.5rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+
+header p {
+    color: #FFF;
+    margin: 1.5rem 0;
+}
+
+div.botoes {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+button {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    border: none;
+    border-radius: 28px;
+    padding: 16px 0;
+}
+
+button.primary {
+    background-color: #FFF;
+    color: #23272A;
+}
+
+button.secondary {
+    background-color: #23272A;
+    color: #FFF;
+}
+
+body {
+    margin: 0;
+}
+
+section {
+    padding: 40px 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    align-items: center;
+}
+
+img {
+    max-width: 100%;
+}
+
+section.s02 {
+    background: #F6F6F6;
+}
+
+section.s04 {
+    background: #F6F6F6;
+}
+
+section.s04 h1 {
+    color: #23272A;
+}
+
+footer {
+    text-align: center;
+    background-color: #23272A;
+    padding: 36px 0;
+}
+
+
+
+@media screen and (min-width: 768px) {
+
+    * {
+        font-size: 28px;
+    }
+
+    p {
+        max-width: 760px;
+    }
+
+    div.botoes {
+        flex-direction: row;
+    }
+
+    button {
+        padding: 12px 24px;
+    }
+
+    header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    section {
+        flex-direction: row;
+        padding: 40px 154px;
+        justify-content: center;
+        gap: 16px;
+    }
+
+    section h2 {
+        max-width: 340px;
+    }
+
+    section p {
+        max-width: 340px;
+    }
+
+    div.text {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    section.s04 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    section.s04 p {
+        max-width: 800px;
+    }
+
+    section.s01 {
+        flex-direction: row-reverse;
+    }
+
+    section.s03 {
+        flex-direction: row-reverse;
+    }
+
+}
